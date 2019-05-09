@@ -1,5 +1,2 @@
-# Hello-world
-A brand new start.
-
-Nice to meet you! 
-I am trying to learn how to use this github thing...
+# 如果很担忧未来找不到工作，那就要多读书
+# 加油！

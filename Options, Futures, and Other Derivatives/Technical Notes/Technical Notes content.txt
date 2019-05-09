@@ -1,0 +1,67 @@
+Technical Notes
+
+The following Technical Notes accompany Options, Futures, and Other Derivatives, 8e. 
+
+1.      Convexity Adjustments to Eurodollar Futures
+
+2.      Properties of the Lognormal Distribution
+
+3.      Warrant Valuation When Value of Equity plus Warrants Is Lognormal
+
+4.      Exact Procedure for Valuing American Calls on Stocks Paying a Single Dividend
+
+5.      Calculation of the Cumulative Probability in a Bivariate Normal Distribution
+
+6.      Differential Equation for Price of a Derivative on a Stock Paying a Known Dividend Yield
+
+7.      Differential Equation for Price of a Derivative on a Futures Price
+
+8.      Analytic Approximation for Valuing American Options
+
+9.      Generalized Tree Building Procedure
+
+10.  The Cornish-Fisher Expansion to Estimate VaR
+
+11.  Manipulation of Credit Transition Matrices
+
+12.  Calculation of Cumulative Non-Central Chi Square Distribution
+
+13.  Efficient Procedure for Valuing American-Style Lookback Options
+
+14.  The Hull-White Two-Factor Model
+
+15.  Valuing Options on Coupon-Bearing Bonds in a One-Factor Interest Rate Model
+
+16.  Construction of an Interest Rate Tree with Nonconstant Time Steps and Nonconstant Parameters
+
+17.  The Process for the Short Rate in an HJM Term Structure Model
+
+18.  Valuation of a Compounding Swap
+
+19.  Valuation of an Equity Swap
+
+20.  Changing the Market Price of Risk for Variables That Are Not the Prices of Traded Securities
+
+21.  Hermite Polynomials and Their Use for Integration
+
+22.  Valuation of a Variance Swap
+
+23.  The Black, Derman, Toy Model
+
+24.  Proof that Forward and Futures Prices Are Equal When Interest Rates Are Constant
+
+25.  A Cash Flow Mapping Procedure
+
+26.  A Binomial Measure of Credit Correlation
+
+27.  Calculation of Moments for Valuing Asian Options
+
+28.  Calculation of Moments for Valuing Basket Options
+
+29.  Proof of Extensions to Ito's Lemma
+
+30.  The Return for a Security Dependent on Multiple Sources of Uncertainty
+
+31. Properties of Ho-Lee and Hull-White Interest Rate Models
+
+ 

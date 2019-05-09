@@ -1,0 +1,28 @@
+%for matlab
+clc
+clear
+format long
+%From the perspective of a sterling investor it is a cash or nothing put.
+S0=1/1.48;
+K=1/1.50;
+r=0.08;
+q=0.04;
+sigma=0.12;
+T=1;
+Q=10000; %bounds
+d2=(log(S0/K)+(r-q-sigma^2/2)*T)/(sigma*sqrt(T))
+value=Q*normcdf(-d2)*exp(-r*T)
+value_in_dollars=value*1.48
+%与答案和DerivaGem2.01均一致
+
+%From the perspective of a dollar investor the derivative is an asset or nothing call
+S0=1.48;
+K=1.50;
+r=0.04;
+q=0.08;
+sigma=0.12;
+T=1;
+Q=10000; %bounds
+d1=(log(S0/K)+(r-q+sigma^2/2)*T)/(sigma*sqrt(T))
+value=Q*S0*normcdf(d1)*exp(-q*T)
+%与答案和DerivaGem2.01均一致

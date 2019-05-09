@@ -1,0 +1,17 @@
+%for excel
+%excel:文件->excel选项->加载项->规划求解加载项->转到：安装solver
+%数据->规划求解
+V0=17.084
+sigma_v=0.1576
+d1=(2.3026*log(V0/15)+(0.06+sigma_v^2/2)*2)/(sigma_v*sqrt(2))
+d2=d1-sigma_v*sqrt(2)
+f1=V0*NORMSDIST(d1)-15*exp(-0.06*2)*NORMSDIST(d2)-4
+f2=NORMSDIST(d1)*sigma_v*V0-2.4
+
+%for matlab
+V0=17.084
+sigma_v=0.1576
+d1=(log(V0/15)+(0.06+sigma_v^2/2)*2)/(sigma_v*sqrt(2))
+d2=d1-sigma_v*sqrt(2)
+f1=V0*normcdf(d1)-15*exp(-0.06*2)*normcdf(d2)-4
+f2=normcdf(d1)*sigma_v*V0-2.4

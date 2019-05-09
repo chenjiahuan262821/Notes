@@ -1,0 +1,12 @@
+#exercise15_28
+setwd("D:/desktopdocu")
+require(fBasics)
+da=read.table("exercise15_28.txt",header=F)
+da4=diff(log(as.numeric(da[,1])))
+da5=basicStats(da4)
+#da5$Stdev
+n=dim(da)[1]-1
+volatility_per_annum=0.028836*sqrt(52)
+volatility_per_annum
+standard_error=volatility_per_annum/sqrt(2*n)
+standard_error

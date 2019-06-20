@@ -26,13 +26,17 @@
 > 
 > 基差风险(basis risk)是指保值工具与被保值商品之间价格波动不同步所带来的风险(Basis risk arises because of the uncertainty about the basis when the hedge is closed out)
 
+*下面我们将F1与F2看作是保值工具的期货价格，S1与S2是被保值商品的现货价格（下面会说到保值工具与被保值商品之间必须是highly correlated那样对冲策略才是有效的）*
+
+Tips for **区分long postion与short position**:如果是long position那么会在标的物的对应数值上升时获得收益，short position则相反，如：对于股票，多头会在股票价格上升时获得收益。
+
 **Long Hedge for Purchase of an Asset**
 
 F1: Futures price at time hedge is set up; F2: Futures price at time asset is purchased; S2: Asset price at time of purchase; b2: Basis at time of purchase
 
-Cost of asset: S2
+Cost of asset: S2 （现货市场交割）
 
-Gain on Futures: F2-F1
+Gain on Futures: F2-F1 （期货市场交割）
 
 Net amount paid: S2−(F2−F1) = F1 + b2
 

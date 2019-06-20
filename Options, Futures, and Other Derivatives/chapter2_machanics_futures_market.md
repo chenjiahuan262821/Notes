@@ -1,5 +1,18 @@
 # Chapter2 Mechanics of Futures Markets
 
+本章主要介绍期货（Futures）
+
+内容包括：场内交易、期货价格、保证金机制、交割方式、每日交割的现金流
+
+---
+
+交易所对于期货交易中违约风险的3大控制方式：
+
++ 涨跌幅限制
++ 保证金机制
++ 每日交割
+
+---
 
 
 ###  Futures Contracts

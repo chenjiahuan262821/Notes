@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<!-- 中文网页-->
+
+	<meta name="keywords" content="HTML">
+	<!-- 为搜索引擎定义关键词-->
+
+	<meta name="description" content="HTML教程">
+	<!-- 为网页定义描述内容-->
+
+	<meta name="author" content="Joyce">
+	<!-- 定义网页作者-->
+
+	<meta http-equiv="refresh" content="10">
+	<!-- 每30秒钟刷新当前页面-->	
+
+	<title>我的第一个网页</title>
+	<style type="text/css">
+		body {background-color:lightpink}
+		p {color: dimgrey }
+	</style>
+</head>
+
+<body>
+
+	<!-- 标题和段落-->
+
+	<h1 style="color:black;">这是我的第一个网页</h1>
+	<h3 style="color: dimgrey;">为了学习爬虫，先学了html~</h3>
+	<font size="4">2019年11月5日</font>
+	<hr>
+
+	<p>这是一个段落</p><br>
+	<p style="color:white; background-color:grey; margin-left:20px;">这是一个设计过颜色和页边距的段落。</p><br>
+
+	<h3 style="font-family:times new roman; text-align:center;"> This is a title </h3>
+	<p style="font-family:arial;color:grey;font-size:15px;">This is a paragraph.</p>
+
+	<b>加粗文本</b><br>
+	<strong>重点文本</strong><br>
+
+	<!-- 超链接-->
+
+	<a href="https://github.com/chenjiahuan262821">github超链接</a><br>
+
+	<a href="http://www.runoob.com" target="_blank">这是一个在新窗口打开的链接</a><br><br>
+
+	<!-- 图片-->
+
+	<img src="D:\github\Notes\structure.jpg" width="200" height="160" /><br><br>
+	<img src="url" alt="看不到了吧？"><br><br>
+
+
+	<!-- 表格和列表-->
+	<table border="1">
+		<caption>Table Example</caption>
+		<tr>
+			<th> </th>
+			<th>header1</th>
+			<th>header2</th>
+			<th colspan="2">header3</th>
+		</tr>
+		<tr>
+			<th rowspan="2"> row 1 </th>
+			<td> row 1, cell 1 </td>
+			<td> row 1, cell 2 </td>
+			<td colspan="2" style="text-align:center;"> row, cell 3 </td>
+		</tr>
+		<tr>
+			<td> row 2, cell 1 </td>
+			<td> row 2, cell 2 </td>
+			<td> row 2, cell 3 </td>
+			<td> row 2, cell 4 </td>
+	</table>
+
+	<ol>
+		<li>Monday</li>
+		<li>Tuesday</li>
+		<li>Wednesday</li>
+	</ol>
+
+	<ul>
+		<li>coffee</li>
+		<ol>
+			<li>Starbucks</li>
+			<li>Nestles</li>
+			<li>Blue Mountain</li>
+			<li>Maxwell</li>
+		</ol>
+		<li>milk</li>
+		<li>bread</li>
+		<li>milktea</li>
+	</ul>
+
+
+	<!-- 学一下布局-->
+	<div id="container" style="width:1000px">
+
+		<div id="header" style="background-color:dimgrey; width:1000px;">
+			<h1 style="font-family:times new roman; color: white; margin-bottom:0;"> 网页标题 </h1>
+		</div>
+
+		<div id="menu" style="background-color:lightblue; height:200px;width:300px; float:left;">
+			<b style="font-family:times new roman;">Menu</b><br>
+			Citi<br>
+			HSBC<br>
+			Morgan<br>
+		</div>
+
+		<div id='content' style="background-color:lightsalmon; height:200px;width:700px; float:left;">
+			<p>这是一段内容<br>这又是一段内容</p>
+		</div>
+
+		<div id="footer" style="background-color: grey; width: 1000px; text-align: center;">
+			版权@Joyce </div>
+		
+	</div>
+
+	<!--表单和输入-->
+	<form>
+		FirstName:<input type="text" name="firstname"><br>
+		LastName:<input type="text" name="lastname"><br>
+		Password:<input type="password" name="pwd"><br>
+	</form>
+
+	<form>
+	<fieldset>
+		<legend>Personal information</legend>
+		<input type="radio" name="sex" value="male">Male<br>
+		<input type="radio" name="sex" value="female">Famle<br>
+	</fieldset>
+	</form>
+
+	<form>
+	<fieldset>
+		<legend>Vehicle for commute</legend>
+		<input type="checkbox" name="vehicle" value="Bike">bike<br>
+		<input type="checkbox" name="vehicle" value="car"  checked="checked">car<br>
+		<input type="checkbox" name="vehicle" value="ship">ship<br>
+		<input type="checkbox" name="vehicle" value="plane">plane<br>
+	</fieldset>
+	</form>
+
+	<fieldset>
+	<form name="input" action="html_form_action.php" method="get">
+		username:<input type="text" name="user">
+		<input type="submit" value="Submit">
+	</form>
+	</fieldset>
+
+	<form>
+		<legend>Select a car</legend>
+		<select name="cars">
+			<option value="volvo">Volvo</option>
+			<option value="saab">Saab</option>
+			<option value="fiat" selected>Fiat</option>
+			<option value="audi">Audi</option>
+		</select>
+	</form>
+
+
+
+</body>
+
+</html>
